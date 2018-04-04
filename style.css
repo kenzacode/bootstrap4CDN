@@ -1,0 +1,130 @@
+/*
+crop pics for main
+crop pis for cards
+*/
+
+body{
+    background-color: #ccccff;
+}
+
+header {
+    background-color: #ccccff;
+}
+
+.title-row {
+    align-items: center;
+}
+
+header h1{
+    font-family:'Oswald', sans-serif;;
+    color: ;
+    top: 40px;
+    transform: translateY(-50%);
+    position: relative;
+    letter-spacing: 3px;
+}
+
+h1.display-4 {
+    padding-bottom: 8px;
+}
+
+.imageAnimation { 
+    position: relative;
+    left: 90%;
+    top: 0px;
+    -webkit-animation: alternate moveToLeft 10s linear infinite;
+    animation: alternate moveToLeft 10s linear infinite;
+}
+
+@-webkit-keyframes moveToLeft {
+    from {left: 90%;}
+    to {left: 0%;}
+}
+
+@keyframes moveToLeft {
+    from {left: 90%;}
+    to {left: 0%;}
+}
+
+nav.navbar.navbar-expand-md.nav-tabs {
+    background-color: #31316C;    
+    border-bottom: 0;
+}
+
+.navbar-brand {
+    color: #ccccff;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: baseline;
+    }
+
+.navbar-brand a:hover {
+        color: #ffd700;
+    }
+
+.navbar-nav a {
+    color: #ccccff;
+    font-size: 1.2em;
+    font-family:'Oswald', sans-serif;
+    vertical-align: baseline;
+}
+
+.navbar-nav a:hover {
+    color: #ffd700;
+}
+
+.form-control {
+    width: 85%;
+    margin: 0 70px;
+}
+
+.jumbotron.jumbotron-fluid {
+    background-color: #000d1a;
+}
+
+.jumbotron .row .col {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbotron img {
+    margin: 0 auto;
+    min-height: auto;
+    min-width: 80%;
+}
+
+.card {
+    min-height: 570px;
+    max-height: 570px;
+    overflow: auto;
+}
+
+.card-text {
+
+}
+
+.card-img-top {
+
+}
+
+p.card-text, h3.card-title{
+    text-align: left;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+footer .row {
+    background: #000d1a;
+}
+
+footer p {
+    color: #ccccff;
+    background-color: #000d1a;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+}

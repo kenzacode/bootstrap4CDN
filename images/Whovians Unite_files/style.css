@@ -1,0 +1,50 @@
+.tardisimg {
+    margin:75px 0px;
+    border: 2px solid green;
+}
+
+.imageAnimation { 
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    -webkit-animation: moveToLeft 10s linear infinite;
+    animation: moveToLeft 10s linear infinite;
+}
+
+@-webkit-keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
+
+@keyframes moveToLeft {
+    from {left: 100%;}
+    to {left: 0%;}
+}
+
+nav.navbar.navbar-expand-md.nav-tabs {
+    background-color: navy;    
+}
+
+.navbar-brand {
+    color: grey;
+    font-family: 'Oswald', arial, helvetica, sans-serif;
+    }
+
+.navbar-nav a {
+    color: gray;
+    font-size: 1em;
+    font-family: 'Oswald', arial, helvetica, sans-serif;
+}
+
+.jumbotron {
+    border:2px solid green;
+    background-color: black;
+    /* position: relative; */
+    
+}
+
+/* .docimgs {
+    position: absolute;
+    width: 50%;
+} */
+
